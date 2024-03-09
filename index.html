@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="My_portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="aboutMe">
+                <h2 class="name">Mudit Chandwani</h3>
+                <div class="mail">
+                    <i class="fa-solid fa-envelope"></i><p class="mailID"><i>chandwanimudit@gmail.com</i></p>
+                </div>
+                <div class="phone">
+                    <i class="fa-solid fa-phone"></i><p class="phoneNo"><i>+91 6306641009</i></p>
+                </div>
+            </div>
+            <div class="nav-content">
+                <div class="me bold">
+                    <a class="color" href="#aboutme">About Me</a>
+                </div>
+                <div class="skills bold">
+                    <a class="color" href="#skills">Skills</a>
+                </div>
+                <div class="projects bold">
+                    <a class="color" href="#projects">Projects</a>
+                </div>
+                <div class="recommendations bold">
+                    <a class="color" href="#recommendations">Recommendations</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section1">
+        <div class="photo">
+            <img src="Anima.jpg">
+        </div> 
+        <div class="mydetails">
+            <div class="myname">
+                <p><h1>Hi, I'm Mudit Chandwani!</h1></p>
+            </div>
+            <div class="myself">
+                <p>I am a Computer Applications Student persuing Bachelors of Computer Applications from University of Lucknow. I am a frontend web developer. I know basics of Python, Java and C. Also, I'm proefficient in MS Office. Apart from technical field I know languages like English and Hindi and currently learning spanish. I consider myself a responsible, punctual, and confident person. I am a fresher looking forward for my first work experience.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h1 class="heading">Skills</h1>
+    <div id="skills" class="section2">
+        <div class="box border">
+            <div class="box-content">
+                <i class="fa-brands fa-html5" style="color: #d35227;"></i>
+                <p><h6>HTML</h6></p>
+            </div>
+        </div>
+        <div class="box border">
+            <div class="box-content">
+                <i class="fa-brands fa-css3-alt" style="color: #2868d7;"></i>
+                <p><h6>CSS</h6></p>
+            </div>
+        </div>
+        <div class="box border">
+            <div class="box-content">
+                <i class="fa-brands fa-square-js" style="color: #f9d315;"></i>
+                <p><h6>JavaScript</h6></p>
+            </div>
+        </div>
+        <div class="box border">
+            <div class="box-content">
+                <i class="fa-brands fa-python" style="color: #32548f;"></i>
+                <p><h6>Python</h6></p>
+            </div>
+        </div>
+        <div class="box border">
+            <div class="box-content">
+                <i class="fa-brands fa-java" style="color: #00eeff;"></i>
+                <p><h6>Java</h6></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h1 class="heading">Projects</h1>
+    <div id="projects" class="section3">
+        <div class="project">
+            <h4 class="proj">Amazon Clone</h4>
+            <li>I developed a clone of amazon e-commerce website.</li>
+        </div>
+        <div class="project">
+            <h4 class="proj">The Ultimate Calculator</h4>
+            <li>I made an ultimate calculator where you can perform some type of unit conversions</li>
+        </div>
+        <div class="project">
+            <h4 class="proj">Portfolio Website</h4>
+            <li>I made a portfolio website where one can know more about me and my skills.</li>
+        </div>
+    </div>
+    <hr>
+    <h1 class="heading">Recommendations</h1>
+    <div id="recommendations" class="section4">
+        <div class="recommendation">
+            <p>"Mudit is a confident person and has a very good attitude. He is a quick learner and always do his best at work. He has good knowledge of frontend development."</p>
+        </div>
+        <div class="recommendation">
+            <p>"I have had a pleasure of working alongside Mudit and can confidently say that they are one of the most dedicated and hardworking team members I have had the pleasure of working with. Mudit has a unique ability to juggle multiple tasks while maintaining the highest quality in their work."</p>
+        </div>
+        <div class="recommendation">
+            <p>"I had worked with Mudit during a project and she has a remarkable way of leading and motivating their team members, and their positive attitude and exceptional communication skills make them an asset to any organisation."</p>
+        </div>
+        <div class="recommendation">
+            <p>"Mudit is a very good learner with great front-end development skills. I have no doubt that she will continue to excel in their future endeavors."</p>
+        </div>
+    </div>
+    <div class="leaveAR">
+        <h3 class="recom">Leave a Recommendation</h3>
+        <input class="box1" type="text" placeholder="Name(optional)">
+        <input class="box2" type="text" placeholder="Message">
+        <button id="showPopup">Submit</button>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <!-- <span class="close" id="closePopup">&times;</span> -->
+                <i class="fa-solid fa-check" style="color: #5f24a8;"></i>
+                <p>Thanks for leaving a recommendation!</p>
+                <span class="close" id="closePopup">Ok</span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    <div class="home">
+        <i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i>
+    </div>
+    <hr class="last">
+</body>
+</html>
